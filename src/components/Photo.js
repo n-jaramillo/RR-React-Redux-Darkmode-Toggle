@@ -1,9 +1,8 @@
 import React from 'react'
-function Photo() {
-
+function Photo(props) {
     return (
-        <div className="Photo">
-            <img src='https://placekitten.com/200/300' alt="author" />
+        <div className="Photo" style={{margin: "0 0 0 20px"}}>
+            <img src={props.photo} alt="author" />
         </div>
     )
 }

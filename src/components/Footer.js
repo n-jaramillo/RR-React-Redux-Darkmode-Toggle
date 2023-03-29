@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Footer() {
+function Footer(props) {
 
     return (
-        <div className="Footer" style={{'backgroundColor': 'white'}}>
+        <div className="Footer" style={{backgroundColor: props.mode.color3, padding: "5px 0"}}>
             <p>Footer Content</p>
         </div>
     )
